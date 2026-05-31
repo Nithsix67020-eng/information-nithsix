@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Information</title>
+    </head>
+
+    <body>
+        <style>
+            td{
+                font-size: 30px;
+            }
+            .font{
+                font-size: 30px; width: 99%;
+            }
+            .big-checkbox{
+                width: 25px;
+                height: 25px;
+            }
+        </style>
+        <table border="1" width="100%">
+
+            <thead>
+                <tr style="background-color: rgb(234, 6, 36); font-size: 30px;">
+                    <th width="50%">Name</th>
+                    <th width="50%">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form>
+                    <tr>
+                        <td>
+                            <label for="Bro vin pong toch">Name</label>
+                            
+                        </td>
+                        <td>
+                            <input class="font" id="Bro vin pong toch" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sex</td>
+                        <td>
+                            <label>
+                                <input type="radio" name="sex" value="Male" style="width: 20px; height: 20px;">Male
+                            </label>
+                            
+                            <br>
+                            <label>
+                                <input type="radio" name="sex" value="Female" style="width: 20px; height: 20px;">Female
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Eye color</label>
+                        </td>
+                        <td>
+                            <select style= "font-size: 30px; width: 15%;">
+                                <option>Green</option>
+                                <option>Blue</option>
+                                <option>Brawn</option>
+                                <option>Yellow</option>
+                                <option selected>None</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Check all that apply
+                        </td>
+                        <td>
+                            <label for="nith1">
+                            <input type="checkbox" value="Over 6 feet tall" id="nith1" name="check all that apply" class="big-checkbox">Over 6 feet tall
+                            </label>
+                            <br>
+                            <label for="nith2">
+                            <input type="checkbox" value="Over 200 pounds" id="nith2" name="check all that apply" class="big-checkbox">Over 200 pounds
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="Bro vin pong thom">Describe your athletic ability:</label>
+                            <br>
+                            <textarea class="font" id="Bro vin pong thom" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <input type="submit" value="Enter my information" style=" font-size: 30px; width: 25%;">
+                            </center>
+                        </td>
+                    </tr>
+                </form>
+            </tbody>
+    </body>
+</html>
